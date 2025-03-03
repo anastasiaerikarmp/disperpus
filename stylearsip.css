@@ -1,0 +1,26 @@
+.btn1{
+    --bs-btn-padding-y: .10rem; 
+    --bs-btn-padding-x: .20rem;
+    display: inline-block;
+    background-color: #ffff;
+    border: none;
+    color: #ffff;
+    transition: background-color 0.3s;
+}
+.btn1:hover{
+    background-color: lightblue;
+}
+.btn1.clicked {
+    background-color: lightblue;
+}
+
+.overflow-y-scroll1{
+    height: 450px;
+}
+
+.sticky-header {
+    position: sticky;
+    top: 0;
+    background-color: white; /* Change the background color as needed */
+    z-index: 1; /* Make the sticky header appear above the original header */
+}
